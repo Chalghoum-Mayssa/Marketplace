@@ -1,0 +1,23 @@
+{
+  "development": {
+    "databases": {
+      "marketPlace-dev-db": {
+        "host": "91.134.191.87",
+        "username": "postgres",
+        "password": "MarketPlace2023.",
+        "database": "market_place_app",
+        "appBaseUrl": "http://localhost:2001",
+        "socketUrl": "http://localhost:3002",
+        "port": 5432,
+        "logging": true,
+        "dialect": "postgres",
+        "define": {
+          "freezeTableName": true
+        }
+      }
+    },
+    "TZ": "Europe/Paris"
+  },
+  "secret": "'BL#,miQFau,amA!?FFW@oKO3<_<E-j-]PVO65d!c%|V2h{(3#~~*$8{X<H}BVm",
+  "authorization": "Bearer 2a2AvAqGm98aNtb8X7srUfYS9KVQFTeMkFMB6dyP82QGMQKuHJ5cXzgNJdPDQrSn"
+}
